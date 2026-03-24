@@ -35,7 +35,7 @@ setInterval(atualizarDataHoraAtual, 1000);
 // --------------------
 // Variáveis de configuração
 // --------------------
-const cargaHorariaMensal = 200; // ERRO 1: Era 220, mudei para 200
+const cargaHorariaMensal = 200;
 const adicionalFinaisDeSemana = 1.5;
 
 // --------------------
@@ -49,7 +49,6 @@ function calcularValorHoraTrabalhada() {
 // Função para calcular o valor total das horas extras em dias úteis
 // --------------------
 function calcularHorasDiasUteis() {
-    // ERRO 2: Removi o "adicionalFinaisDeSemana" daqui, pois dias úteis é valor normal
     return calcularValorHoraTrabalhada() * horasExtrasDiasUteis();
 }
 
@@ -63,7 +62,7 @@ function calcularHorasExtrasFinaisDeSemana() {
 // ------------------
 // Função para calcular o valor total a ser pago pelas horas extras
 // ------------------
-function calcularTotal() { // ERRO 3: Mudei de "soma" para "calcularTotal" para bater com o HTML
+function calcularTotal() {
     const resultado = calcularHorasExtrasFinaisDeSemana() + calcularHorasDiasUteis();
 
     // Formatação para passar para o histórico
@@ -71,7 +70,6 @@ function calcularTotal() { // ERRO 3: Mudei de "soma" para "calcularTotal" para 
 
     exibirResultado(resultado);
 
-    // ERRO 4: Faltava chamar a função do histórico aqui
     adicionarAoHistorico(horasExtrasDiasUteis(), horasExtrasFinaisSemana(), resultadoFormatado);
 }
 
