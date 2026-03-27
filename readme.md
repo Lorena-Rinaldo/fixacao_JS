@@ -41,10 +41,17 @@ O desenvolvimento deste projeto permitiu a aplicação prática de:
 ## 📂 Estrutura de Arquivos
 ```text
 fixacao_JS/
-├── horaExtra/                # Módulo de Horas Extras
-├── aumentoSalario/           # Módulo de Reajuste
-├── transporteColaboradores/  # Módulo de Logística
-└── index.html                # Dashboard Principal
+|-- index.html
+|-- readme.md
+|-- horaExtra/
+|   |-- index.html
+|   |-- script.js
+|-- aumentoSalario/
+|   |-- index.html
+|   |-- script.js
+|-- transporteColaboradores/
+|   |-- index.html
+|   |-- script.js
 ```
 
 ## ⚙️ Como Utilizar
