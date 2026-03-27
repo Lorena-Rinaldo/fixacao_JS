@@ -38,9 +38,10 @@
                 class="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-widest text-white uppercase bg-white/20 rounded-full backdrop-blur-md border border-white/30">
                 Portal Administrativo
             </span>
-            <h1 class="text-5xl font-extrabold text-white tracking-tight mb-4">
+            <h1 class="text-5xl font-extrabold text-white tracking-tight mb-2">
                 Gestão Inteligente
             </h1>
+            <p id="dataHoraAtual" class="text-white text-xs font-semibold normal-case tracking-normal"></p>
         </header>
 
         <!-- Grade de Cards -->
@@ -144,6 +145,35 @@
             </p>
         </footer>
     </div>
+
+    <script>
+        // --------------------
+        // Funções para exibir a data e hora atuais do sistema do usuário
+        // --------------------
+        function atualizarDataHoraAtual() {
+            const elementoDataHora = document.getElementById('dataHoraAtual');
+
+            if (!elementoDataHora) {
+                return;
+            }
+
+            // Cria um objeto Date com a data e a hora atuais do computador do usuário.
+            const agora = new Date();
+
+            // Converte o valor para um texto formatado no padrão brasileiro.
+            const dataHoraFormatada = agora.toLocaleString('pt-BR', {
+                dateStyle: 'full',
+                timeStyle: 'medium'
+            });
+
+            // Exibe o resultado no elemento reservado no HTML.
+            elementoDataHora.innerText = `Data e hora atuais: ${dataHoraFormatada}`;
+        }
+
+        // Executa a função quando a página abre e atualiza o horário a cada segundo.
+        atualizarDataHoraAtual();
+        setInterval(atualizarDataHoraAtual, 1000);
+    </script>
 
 </body>
 
