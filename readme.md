@@ -45,6 +45,8 @@ O desenvolvimento deste projeto permitiu a aplicação prática de:
 fixacao_JS/
 |-- index.html
 |-- readme.md
+|-- assets/
+|   |-- favicon.png
 |-- horaExtra/
 |   |-- index.html
 |   |-- script.js
