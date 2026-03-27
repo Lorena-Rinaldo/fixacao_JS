@@ -113,14 +113,6 @@ Este projeto foi desenvolvido para reforçar conceitos de:
 - Interação com elementos HTML usando `getElementById`;
 - Atualização dinâmica da interface.
 
-## Melhorias Futuras
-
-- Corrigir problemas de acentuação em alguns textos;
-- Adicionar botão para limpar o histórico em todos os módulos;
-- Incluir validações visuais nos campos;
-- Salvar o histórico no `localStorage`;
-- Adicionar mais recursos de responsividade e acessibilidade.
-
 ## Autora
 
 Projeto desenvolvido por Lorena.
