@@ -1,12 +1,12 @@
-﻿# Fixação JS
+# Fixação JS
 
 Projeto de fixação em JavaScript, com foco em lógica de programação, manipulação do DOM e cálculos aplicados a rotinas de RH.
 
 A aplicação funciona como um pequeno portal administrativo com três ferramentas:
 
-- cálculo de horas extras;
-- simulação de aumento salarial;
-- cálculo de custo de transporte fretado.
+- Cálculo de horas extras;
+- Simulação de aumento salarial;
+- Cálculo de custo de transporte fretado.
 
 ## Visão Geral
 
@@ -14,12 +14,12 @@ A página inicial centraliza o acesso aos módulos do projeto. Cada módulo poss
 
 O projeto foi organizado para praticar:
 
-- captura de dados de formulários;
-- validação básica de entradas;
-- cálculos com regras condicionais;
-- exibição de resultados na tela;
-- atualização de histórico de operações;
-- uso de data e hora em tempo real com JavaScript.
+- Captura de dados de formulários;
+- Validação básica de entradas;
+- Cálculos com regras condicionais;
+- Exibição de resultados na tela;
+- Atualização de histórico de operações;
+- Uso de data e hora em tempo real com JavaScript.
 
 ## Funcionalidades
 
@@ -27,16 +27,16 @@ O projeto foi organizado para praticar:
 
 Calcula o valor total de horas extras com base em:
 
-- salário bruto do colaborador;
-- carga horária mensal de 200 horas;
-- horas extras em dias úteis;
-- horas extras em finais de semana.
+- Salário bruto do colaborador;
+- Carga horária mensal de 200 horas;
+- Horas extras em dias úteis;
+- Horas extras em finais de semana.
 
 Regras aplicadas:
 
-- valor da hora = salário bruto / 200;
-- horas extras em dias úteis = valor da hora x quantidade de horas;
-- horas extras em finais de semana = valor da hora x quantidade de horas x 1,5.
+- Valor da hora = salário bruto / 200;
+- Horas extras em dias úteis = valor da hora x quantidade de horas;
+- Horas extras em finais de semana = valor da hora x quantidade de horas x 1,5.
 
 ### 2. Aumento Salarial
 
@@ -44,29 +44,29 @@ Simula o novo salário do funcionário de acordo com a faixa salarial informada.
 
 Faixas de reajuste:
 
-- até R$ 1.200,00: aumento de 16%;
-- de R$ 1.200,01 até R$ 2.100,00: aumento de 13%;
-- de R$ 2.100,01 até R$ 3.000,00: aumento de 10%;
-- acima de R$ 3.000,00: aumento de 5%.
+- Até R$ 1.200,00: aumento de 16%;
+- De R$ 1.200,01 até R$ 2.100,00: aumento de 13%;
+- De R$ 2.100,01 até R$ 3.000,00: aumento de 10%;
+- Acima de R$ 3.000,00: aumento de 5%.
 
 ### 3. Transporte de Colaboradores
 
 Calcula o custo mensal do transporte fretado com base em:
 
-- quantidade de funcionários;
-- quantidade de dias úteis no mês;
-- taxa por funcionário, conforme a faixa.
+- Quantidade de funcionários;
+- Quantidade de dias úteis no mês;
+- Taxa por funcionário, conforme a faixa.
 
 Faixas de custo por funcionário:
 
-- até 49 funcionários: R$ 4,50;
-- de 50 a 99 funcionários: R$ 4,10;
-- de 100 a 149 funcionários: R$ 3,80;
+- Até 49 funcionários: R$ 4,50;
+- De 50 a 99 funcionários: R$ 4,10;
+- De 100 a 149 funcionários: R$ 3,80;
 - 150 funcionários ou mais: R$ 3,60.
 
 Fórmula utilizada:
 
-- custo total = quantidade de funcionários x taxa por funcionário x dias úteis.
+- Custo total = quantidade de funcionários x taxa por funcionário x dias úteis.
 
 ## Tecnologias Utilizadas
 
@@ -106,20 +106,20 @@ Se preferir, você também pode abrir cada módulo individualmente pelos respect
 
 Este projeto foi desenvolvido para reforçar conceitos de:
 
-- funções em JavaScript;
-- estruturas condicionais;
-- operações matemáticas;
-- formatação de moeda com `toLocaleString`;
-- interação com elementos HTML usando `getElementById`;
-- atualização dinâmica da interface.
+- Funções em JavaScript;
+- Estruturas condicionais;
+- Operações matemáticas;
+- Formatação de moeda com `toLocaleString`;
+- Interação com elementos HTML usando `getElementById`;
+- Atualização dinâmica da interface.
 
 ## Melhorias Futuras
 
-- corrigir problemas de acentuação em alguns textos;
-- adicionar botão para limpar o histórico em todos os módulos;
-- incluir validações visuais nos campos;
-- salvar o histórico no `localStorage`;
-- adicionar mais recursos de responsividade e acessibilidade.
+- Corrigir problemas de acentuação em alguns textos;
+- Adicionar botão para limpar o histórico em todos os módulos;
+- Incluir validações visuais nos campos;
+- Salvar o histórico no `localStorage`;
+- Adicionar mais recursos de responsividade e acessibilidade.
 
 ## Autora
 
