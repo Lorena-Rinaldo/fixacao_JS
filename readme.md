@@ -1,4 +1,4 @@
-# LaborCalc - Prática de Lógica e Manipulação de DOM
+# Gestão de RH - Prática de Lógica e Manipulação de DOM
 
 Este projeto é uma suite de ferramentas administrativas voltada para rotinas de Recursos Humanos. Desenvolvido para consolidar conceitos fundamentais de JavaScript puro, o projeto simula cálculos reais de departamento pessoal em uma interface moderna e responsiva.
 
@@ -56,7 +56,7 @@ fixacao_JS/
 
 ## ⚙️ Como Utilizar
 Por ser uma aplicação estática, não há necessidade de instalação de dependências:
- -Clone o repositório.
- -Execute o arquivo index.html em qualquer navegador moderno.
+- Clone o repositório.
+- Execute o arquivo index.html em qualquer navegador moderno.
  
 #### Desenvolvido por Lorena
