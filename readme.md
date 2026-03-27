@@ -1,3 +1,5 @@
+### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
+
 # Gestão de RH - Prática de Lógica e Manipulação de DOM
 
 Este projeto é uma suite de ferramentas administrativas voltada para rotinas de Recursos Humanos. Desenvolvido para consolidar conceitos fundamentais de JavaScript puro, o projeto simula cálculos reais de departamento pessoal em uma interface moderna e responsiva.
